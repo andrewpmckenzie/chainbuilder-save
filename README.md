@@ -1,6 +1,6 @@
 # chainbuilder-save [![Build Status](https://travis-ci.org/andrewpmckenzie/chainbuilder-save.svg)](https://travis-ci.org/andrewpmckenzie/chainbuilder-save)
 
-A [chainbuilder](https://www.npmjs.com/package/chainbuilder) mixin for saving/restoring values. 
+A [chainbuilder](https://www.npmjs.com/package/chainbuilder) mixin for saving values for re-injection later in the chain. 
 
 **Installation** `npm install chainbuilder chainbuilder-save --save`
 
