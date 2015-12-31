@@ -1,0 +1,36 @@
+{
+  "name": "chainbuilder-save",
+  "version": "1.0.0",
+  "description": "Chainbuilder mixin for saving/restoring values.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewpmckenzie/chainbuilder-save.git"
+  },
+  "keywords": [
+    "chainbuilder",
+    "save",
+    "promise",
+    "chain"
+  ],
+  "author": "andrewpmckenzie@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrewpmckenzie/chainbuilder-save/issues"
+  },
+  "homepage": "https://github.com/andrewpmckenzie/chainbuilder-save",
+  "dependencies": {},
+  "peerDependencies": {
+    "chainbuilder": ">= 2.0.10"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "chainbuilder": "^2.0.10",
+    "mocha": "^2.3.4",
+    "mockery": "^1.4.0",
+    "sinon": "^1.17.2"
+  }
+}
