@@ -36,11 +36,8 @@ myChain(2)
 
 ## Methods
 
-#### require('chainbuilder-save')()
-Init the mixin.
-
 #### save(varName)
-Save the previous result.
+Save the result of the previous call.
 
 **`@param {String} varName`** a name for the variable (re-using a name will override the value).
 
@@ -50,6 +47,6 @@ Inject the saved value back into the chain.
 **`@param {String} varName`** name of the variable to restore.
 
 #### this.getSaved(varName) _context method_
-Get a saved value from within a chainbuilder context (e.g. a `tap`, `transform` or `end` callback).
+Access a saved value from within a chainbuilder context (e.g. a `tap`, `transform` or `end` callback).
 
 **`@param {String} varName`** name of the variable to get.
